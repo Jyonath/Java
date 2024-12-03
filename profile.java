@@ -29,6 +29,8 @@ cgpa=s.nextFloat();
 }
 void app()
 {
+String uname;
+String psw;
 Scanner s=new Scanner(System.in);
 System.out.println("Enter username:");
 uname=s.next();
@@ -36,9 +38,21 @@ System.out.println("Enter password:");
 psw=s.next();
 if(username.equals(uname) && password.equals(psw))
 {
-System.out.println("Welcome to cse");
+System.out.println("id:"+id);
+System.out.println("firstname:"+fn);
+System.out.println("lastname:"+ln);
+System.out.println("username:"+username);
+System.out.println("password:"+password);
+System.out.println("age:"+age);
+System.out.println("cgpa:"+cgpa);
 }
 else
 {
 System.out.println("Invalid username/password plzz retry");
+}
+}
+void edit()
+{
+
+}
 }
