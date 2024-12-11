@@ -112,14 +112,14 @@ void output()
 {
 	System.out.println("count: "+count);
 	System.out.println("Text: "+text);
-	System.out.println("call "+call);
-	System.out.println("video "+video);
-	System.out.println("posts "+posts);
-	System.out.println("stories "+stories);
-	System.out.println("reels "+reels);
-	System.out.println("shop "+shop);
-	System.out.println("notes "+notes);
-	System.out.println("music "+music);
+	System.out.println("call: "+call);
+	System.out.println("video: "+video);
+	System.out.println("posts: "+posts);
+	System.out.println("stories: "+stories);
+	System.out.println("reels: "+reels);
+	System.out.println("shop: "+shop);
+	System.out.println("notes: "+notes);
+	System.out.println("music: "+music);
 }
 public static void main(String[] args) {
 	instagram i=new instagram(10,"raju");
@@ -132,7 +132,7 @@ public static void main(String[] args) {
 	i.instagram(22, "bhanu", 1, 2, "bot", "ff", "tpr", "pro");
 	i.instagram(6, "i", 5, 7, "a", "m", "o", "k", 7);
 	i.instagram(66, "u", 8, 9, "yes", "no", "true", "false", 2, 1);
-	i.instagram(1, "k", 2, 3, "op", "ng", "gw", "eheh", 1, 2, 3);
+	i.instagram(1, "jyonath", 123456789, 3, "Gaming", "Upload stories", "Swipe up for new reel", "Nonstop", 2, 3, 4);
 	i.output();
 	
 
